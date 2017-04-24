@@ -8,7 +8,6 @@
 
 
 <style>
-@import "compass/css3";
 
 $textColor: #9a9ca2;
 $lightGray: #eee;
@@ -165,10 +164,17 @@ body {
 
 </style>
 
-
+</head>
 <body>
 
+<div class="pull-left">
+<h4>Welcome&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${userName}</h4>
+</div>
+<div class="pull-right">
 
+<a href='logout' > Logout</a>
+</div>
+<div>
 <a href="#" class="button blue">
   <strong class="title">Teach me to file my taxes</strong>
   <span class="details">
@@ -212,6 +218,8 @@ body {
     $30 <strong>&rsaquo;</strong>
   </span>
 </a>
+</div>
+
 
 
 </body>

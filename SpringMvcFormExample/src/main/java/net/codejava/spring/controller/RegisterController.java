@@ -40,11 +40,6 @@ public class RegisterController {
 		// implement your own registration logic here...
 		
 		// for testing purpose:
-		System.out.println("username: " + user.getUsername());
-		System.out.println("password: " + user.getPassword());
-		System.out.println("email: " + user.getEmail());
-		System.out.println("birth date: " + user.getBirthDate());
-		System.out.println("profession: " + user.getProfession());
 		String path=System.getProperty("user.dir");
 		System.out.println(path);
 		String username = user.getUsername();
@@ -55,9 +50,9 @@ public class RegisterController {
         
         File myFile = new File("dataFile.txt");
         if (myFile.createNewFile()){
-            System.out.println("File is created!");
+            System.out.println("File is created at"+path);
            }else{
-            System.out.println("File already exists.");
+            System.out.println("File already exists at"+path);
            }
         
         FileWriter filewriter = new FileWriter(myFile, true);

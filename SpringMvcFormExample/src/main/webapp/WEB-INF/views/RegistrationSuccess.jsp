@@ -39,7 +39,6 @@
 			
 		</table>
 		
-		<a href="NewFile.jsp">Login</a>
 	</div>
 	
 </body>
