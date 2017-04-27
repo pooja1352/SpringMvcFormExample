@@ -5,7 +5,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
 
 <style>
 
@@ -170,10 +173,7 @@ body {
 <div class="pull-left">
 <h4>Welcome&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${userName}</h4>
 </div>
-<div class="pull-right">
 
-<a href='logout' > Logout</a>
-</div>
 <div>
 <a href="#" class="button blue">
   <strong class="title">Teach me to file my taxes</strong>
@@ -218,6 +218,8 @@ body {
     $30 <strong>&rsaquo;</strong>
   </span>
 </a>
+
+<button type="button" class="btn btn-info" style="width: 131px; margin-left: 700px;"><a href="logout">Logout</a></button>
 </div>
 
 
